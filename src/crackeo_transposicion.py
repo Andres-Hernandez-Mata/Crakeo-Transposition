@@ -36,9 +36,9 @@ def hackTransposition(message):
     for key in range(1, len(message)):
         print('Trying key #%s...' % (key))
 
-        decryptedText = descifradoTransposicion.decryptMessage(key, message)
+        decryptedText = descifrado_transposicion.decryptMessage(key, message)
 
-        if detectEnglish.isEnglish(decryptedText):
+        if detect_english.isEnglish(decryptedText):
             # Ask user if this is the correct decryption.
             print()
             print('Possible encryption hack:')
