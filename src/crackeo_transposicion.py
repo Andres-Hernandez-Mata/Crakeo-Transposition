@@ -9,7 +9,7 @@ Fecha: 07 Abril 2020
 # Transposition Cipher Hacker
 # https://www.nostarch.com/crackingcodes (BSD Licensed)
 
-import detectEnglish, descifradoTransposicion
+import detect_english, descifrado_transposicion
 
 def main():
     # You might want to copy & paste this text from the source code at
